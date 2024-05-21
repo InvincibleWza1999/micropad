@@ -6,6 +6,6 @@ Parameter setting is elaborated at the beginning of each training and testing fi
 
 
 <center>
-	<img src="(https://lfn.ustc.edu.cn/_upload/site/02/72/626/logo.png"/>
+	<img src="https://lfn.ustc.edu.cn/_upload/site/02/72/626/logo.png"/>
 </center>
  
