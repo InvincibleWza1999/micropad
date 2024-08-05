@@ -79,7 +79,7 @@ class RCL_model(torch.nn.Module):
         g_resource = g_resource.unsqueeze(1)
         g_latent = g_latent.unsqueeze(1)
 
-        g = torch.concat((g_invoke,g_internal,g_resource),dim=1)
+        g = torch.concat((g_invoke,g_internal,g_resource,g_latent),dim=1)
         #g = torch.concat((g_invoke,g_internal),dim=1)
         g = self.attention_net(g)      
 
